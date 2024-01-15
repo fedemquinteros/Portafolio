@@ -1,0 +1,455 @@
+body {
+  font-family: "code-saver", sans-serif;
+  font-weight: 850;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
+  background-color: #0F0F0F;
+  background-image: url(/complementos/imagenes/masoscuro.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  color: #DBE2EF;
+  text-shadow: #290000 2px 2px 2px;
+  overflow: auto;
+  font-size: 22px;
+
+}
+
+body p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav {
+  background-color: #333333e5;
+  color: #DBE2EF;
+  padding: 10px;
+  text-align: center;
+  font-family: "calling-code", sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    padding: 10px;
+
+  }
+}
+
+main {
+  padding: 10px;
+}
+
+.seccion {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: hsla(0, 0%, 20%, 0.87);
+  color: #B7C4CF;
+  padding: 0px;
+  text-align: center;
+  text-shadow: #0F0F0F 3px 2px 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: "allotrope-variable", sans-serif;
+  font-variation-settings: 'wdth' 50, 'wght' 100;
+  font-size: 16px;
+  align-items: center;
+}
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/complementos/imagenes/OIG\ \(9\).jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  width: 65%;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: #8EACCD 5px 5px 20px;
+}
+
+
+input,
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+  background-color: #333;
+  color: #B7C4CF;
+  cursor: pointer;
+  width: calc(60% - 20px);
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  input,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+
+input {
+  background-color: rgba(300, 4, 4, 0.5);
+  font-size: 100%;
+  color: #B7C4CF;
+}
+
+textarea {
+  background-color: rgba(300, 4, 4, 0.5);
+  color: #B7C4CF;
+  font-size: 120%
+}
+
+input::placeholder {
+  color: #B7C4CF;
+}
+
+textarea::placeholder {
+  color: #B7C4CF;
+}
+
+.proyecto {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.habilidades {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.name {
+  font-family: "calling-code", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 24px;
+  padding: 0%;
+
+}
+
+.name p {
+  padding-right: 15px;
+  text-align: center;
+}
+
+.name name {
+  font-size: 28px;
+  margin-top: 10px;
+  padding-right: 15px;
+}
+
+.name img {
+  border-radius: 100%;
+  border: #B7C4CF solid 1px;
+  margin-top: 10px;
+  height: auto;
+  max-width: 100%;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 18px;
+  }
+
+  .name p {
+    padding: 0 10px;
+  }
+
+  .name name {
+    font-size: 22px;
+  }
+}
+
+button,
+b {
+  grid-column: span 2;
+}
+
+b {
+  height: 45px;
+  line-height: 45px;
+  background: #F66060;
+  padding: 0 15px;
+  border-radius: 3px;
+  display: none;
+}
+
+.formulario__mensaje-activo {
+  display: block;
+}
+
+button {
+  height: 45px;
+  line-height: 45px;
+  width: 35%;
+  color: #B7C4CF;
+  background-color: #850707d8;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 3px;
+  transition: .1s ease all;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 3px 0px 30px #ffb534bb;
+}
+
+strong {
+  font-size: 20px;
+  color: #68ff54;
+  display: none;
+}
+
+.formulario__input-error {
+  display: none;
+}
+
+.animate__animated.animate__zoomIn {
+  --animate-duration: 2s;
+}
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  overflow: auto;
+}
+
+.contenedor-texto .fullstack {
+  font-weight: bold;
+}
+
+.contenedor-texto {
+  padding-right: 15px;
+}
+
+.animate__animated.animate__fadeInLeft {
+  padding-right: 5px;
+}
+
+
+.devicon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.devicon2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.devicon3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.devicon4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.devicon4 .github {
+  padding-left: 50px;
+
+}
+
+.hability {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .devicon,
+  .devicon2,
+  .devicon3,
+  .devicon4 {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .devicon4 .github {
+    padding-left: 0;
+
+  }
+
+  .hability {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+}
+
+form {
+  font-size: 16px;
+}
+
+.cartas {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  text-align: center;
+}
+
+.cartas p {
+  color: #DBE2EF
+}
+
+.cartas h5 {
+  font-size: 28px;
+  color: #D5F0C1;
+  font-weight: bolder;
+}
+
+.card-body {
+  background-image: url(/complementos/imagenes/cardbackground.jpeg);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .cartas {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 10%;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+
+}
+
+.hability .habilidad {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  text-align: start;
+  margin-top: 50px;
+}
+
+.card-text {
+  font-size: 16px;
+}

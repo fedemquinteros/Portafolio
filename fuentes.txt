@@ -1,0 +1,8 @@
+codesaver:(<link rel="stylesheet" href="https://use.typekit.net/hom4qvt.css">
+font-family: "code-saver", sans-serif;
+font-weight: 400;
+font-style: normal;)
+allotrope-variable:(<link rel="preconnect" href="https://fonts.adobe.com/fonts/allotrope-variable">
+font-family: "allotrope-variable", sans-serif;
+  font-variation-settings: 'wdth' 50, 'wght' 100;)
+  color util para el sitio #F6B17A
