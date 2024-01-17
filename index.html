@@ -32,6 +32,14 @@
       Federico
       Manuel Quinteros
     </div>
+    <div class="flags" id="flags">
+      <div class="flags__item" data-language="es">
+        <img class="flags__img" src="/complementos/imagenes/ar.svg" alt="">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img class="flags__img" src="/complementos/imagenes/gb.svg" alt="">
+      </div>
+    </div>
     <ul class="animate__animated animate__rubberBand ">
       <li onclick="mostrarSeccion('inicio')">Sobre mí</li>
       <li onclick="mostrarSeccion('proyectos')">Proyectos</li>
@@ -48,7 +56,8 @@
         <p>
         <div class="contenedor-texto">
           <name>Federico Manuel Quinteros<br>
-            <span class="typed"></span>
+            <span class="typed" data-section="profile"
+            data-value="rol"></span>
           </name>
           </p>
         </div><img class="animate__animated animate__zoomIn" src="complementos/imagenes/fotocv.png" alt="Federico"
@@ -58,7 +67,7 @@
 
       <h2>Sobre mí</h2>
       <div class="about">
-        <p>Hola, soy Federico, un desarrollador full-stack con Python. Me apasionan la tecnología y la informática,
+        <p data-section="profile" data-value="description">Hola, soy Federico, un desarrollador full-stack con Python. Me apasionan la tecnología y la informática,
           y siempre estoy buscando nuevos desafíos. <br>
           Egresé en 2023 del curso Desarrollo Full Stack con Python del programa Codo a Codo 4.0, donde aprendí a crear
           sitios web y aplicaciones desde cero, utilizando las mejores prácticas y herramientas del sector. <br>
@@ -77,7 +86,7 @@
           <img src="/complementos/imagenes/sportspalooza.png" class="card-img-top" alt="sportspalooza">
           <div class="card-body">
             <h5 class="card-title">SportsPalooza</h5>
-            <p class="card-text">Es una emocionante plataforma que combina pronósticos deportivos (prode) con la
+            <p class="card-text" data-section="proyectos" data-value="sportspalooza">Es una emocionante plataforma que combina pronósticos deportivos (prode) con la
               capacidad de crear fixtures para torneos en la oficina. </p>
             <a href="https://sportspalooza.netlify.app/" class="btn btn-primary">Ir a SportsPalooza</a>
           </div>
@@ -86,7 +95,7 @@
           <img src="/complementos/imagenes/petway.png" class="card-img-top" alt="petway">
           <div class="card-body">
             <h5 class="card-title">Pet Way</h5>
-            <p class="card-text">Somos una tienda online de productos para mascotas que llevamos más de 20 años
+            <p class="card-text" data-section="proyectos" data-value="petway">Somos una tienda online de productos para mascotas que llevamos más de 20 años
               trabajando para ofrecer el mejor servicio y cuidado para ellas. </p>
             <a href="https://pet-way.netlify.app/" class="btn btn-primary">Ir a Pet Way</a>
           </div>
@@ -95,7 +104,7 @@
           <img src="/complementos/imagenes/quimica.png" class="card-img-top" alt="quimica" height="110" width="100">
           <div class="card-body">
             <h5 class="card-title">Química Inorgánica</h5>
-            <p class="card-text">La química descriptiva de los elementos a menudo se ve como una coleccion de hechos no
+            <p class="card-text" data-section="proyectos" data-value="quimicaInorganica">La química descriptiva de los elementos a menudo se ve como una coleccion de hechos no
               relacionados con muy pocos principios fundamentales.
             </p>
             <a href="https://quimicainorganica.netlify.app/" class="btn btn-primary">Ir a Química</a>
@@ -105,7 +114,7 @@
           <img src="complementos/imagenes/grabadora.png" class="card-img-top" alt="grabadora">
           <div class="card-body">
             <h5 class="card-title">Grabadora </h5>
-            <p class="card-text">Con esta grabadora podrás seleccionar qué parte de tu pantalla grabar de la forma más
+            <p class="card-text" data-section="proyectos" data-value="grabadora">Con esta grabadora podrás seleccionar qué parte de tu pantalla grabar de la forma más
               sencilla y eficaz, con solo pulsar un botón.</p>
             <a href="https://megagrabadora.netlify.app/" class="btn btn-primary">Ir a grabadora</a>
           </div>
@@ -121,7 +130,7 @@
         <h2><span>Habilidades</span></h2>
       </div>
       <div class="hability">
-        <p class="habilidad">Estas son algunas de las tecnologías y lenguajes que domino y que uso para crear sitios y
+        <p class="habilidad" data-section="habilidades" data-value="habilidad">Estas son algunas de las tecnologías y lenguajes que domino y que uso para crear sitios y
           aplicaciones
           web de calidad:
         </p>

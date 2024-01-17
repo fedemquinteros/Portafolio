@@ -453,3 +453,17 @@ form {
 .card-text {
   font-size: 16px;
 }
+
+.flags{
+  width: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flags__item{
+  width: 45px;
+}
+.flags__img{
+  cursor: pointer;
+  display: block;
+}

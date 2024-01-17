@@ -1,0 +1,15 @@
+{
+    "profile": {
+        "rol": "Full-stack developer",
+        "description": "Hello, I am Federico, a full-stack developer with Python. I am passionate about technology and computing, and I am always looking for new challenges. I graduated in 2023 from the Full Stack Development with Python course of the Codo a Codo 4.0 program, where I will learn to create websites and applications from scratch, using the best practices and tools in the sector. I am a reliable and proactive professional, with a passion for continuous learning. I consider myself self-taught and I am always willing to explore new technologies and solutions."
+    },
+    "proyectos": {
+        "sportspalooza": "It is an exciting platform that combines sports predictions (prode) with the ability to create matches for tournaments in the office.",
+        "petway": "We are an online pet products store that has been working for more than 20 years to offer the best service and care for them.",
+        "quimicaInorganica": "Descriptive chemistry of elements is often seen as a collection of unrelated facts with very few fundamental principles.",
+        "grabadora": "With this recorder you can select which part of your screen to record in the simplest and most efficient way, with just the press of a button."
+    },
+    "habilidades": {
+        "habilidad": "These are some of the technologies and languages I master and use to create quality websites and web applications"
+    }
+}
