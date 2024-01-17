@@ -41,10 +41,10 @@
       </div>
     </div>
     <ul class="animate__animated animate__rubberBand ">
-      <li onclick="mostrarSeccion('inicio')">Sobre mí</li>
-      <li onclick="mostrarSeccion('proyectos')">Proyectos</li>
-      <li onclick="mostrarSeccion('habilidades')">Habilidades</li>
-      <li onclick="mostrarSeccion('contacto')">Contacto</li>
+      <li onclick="mostrarSeccion('inicio')" data-section="nav" data-value="sobre">Sobre mí</li>
+      <li onclick="mostrarSeccion('proyectos')" data-section="nav" data-value="proyec">Proyectos</li>
+      <li onclick="mostrarSeccion('habilidades')" data-section="nav" data-value="habil">Habilidades</li>
+      <li onclick="mostrarSeccion('contacto')" data-section="nav" data-value="contact">Contacto</li>
     </ul>
   </nav>
 
@@ -65,7 +65,7 @@
       </div>
       </div>
 
-      <h2>Sobre mí</h2>
+      <h2 data-section="profile" data-value="tittle">Sobre mí</h2>
       <div class="about">
         <p data-section="profile" data-value="description">Hola, soy Federico, un desarrollador full-stack con Python. Me apasionan la tecnología y la informática,
           y siempre estoy buscando nuevos desafíos. <br>
@@ -78,9 +78,9 @@
     </section>
     <section id="proyectos" class="seccion">
       <div class="proyecto">
-        <h2>Proyectos</h2>
+        <h2 data-section="proyectos" data-value="proyecto">Proyectos</h2>
       </div>
-      <p class="intro">Estos son algunos de mis proyectos:</p>
+      <p class="intro" data-section="proyectos" data-value="proyecto2">Estos son algunos de mis proyectos:</p>
       <div class="cartas">
         <div class="card" style="width: 18rem;">
           <img src="/complementos/imagenes/sportspalooza.png" class="card-img-top" alt="sportspalooza">
@@ -88,7 +88,7 @@
             <h5 class="card-title">SportsPalooza</h5>
             <p class="card-text" data-section="proyectos" data-value="sportspalooza">Es una emocionante plataforma que combina pronósticos deportivos (prode) con la
               capacidad de crear fixtures para torneos en la oficina. </p>
-            <a href="https://sportspalooza.netlify.app/" class="btn btn-primary">Ir a SportsPalooza</a>
+            <a href="https://sportspalooza.netlify.app/" class="btn btn-primary" data-section="proyectos" data-value="boton1">Ir a SportsPalooza</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -97,7 +97,7 @@
             <h5 class="card-title">Pet Way</h5>
             <p class="card-text" data-section="proyectos" data-value="petway">Somos una tienda online de productos para mascotas que llevamos más de 20 años
               trabajando para ofrecer el mejor servicio y cuidado para ellas. </p>
-            <a href="https://pet-way.netlify.app/" class="btn btn-primary">Ir a Pet Way</a>
+            <a href="https://pet-way.netlify.app/" class="btn btn-primary" data-section="proyectos" data-value="boton2">Ir a Pet Way</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -107,7 +107,7 @@
             <p class="card-text" data-section="proyectos" data-value="quimicaInorganica">La química descriptiva de los elementos a menudo se ve como una coleccion de hechos no
               relacionados con muy pocos principios fundamentales.
             </p>
-            <a href="https://quimicainorganica.netlify.app/" class="btn btn-primary">Ir a Química</a>
+            <a href="https://quimicainorganica.netlify.app/" class="btn btn-primary" data-section="proyectos" data-value="boton3">Ir a Química</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -116,7 +116,7 @@
             <h5 class="card-title">Grabadora </h5>
             <p class="card-text" data-section="proyectos" data-value="grabadora">Con esta grabadora podrás seleccionar qué parte de tu pantalla grabar de la forma más
               sencilla y eficaz, con solo pulsar un botón.</p>
-            <a href="https://megagrabadora.netlify.app/" class="btn btn-primary">Ir a grabadora</a>
+            <a href="https://megagrabadora.netlify.app/" class="btn btn-primary" data-section="proyectos" data-value="boton4">Ir a grabadora</a>
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@
     </section>
     <section id="habilidades" class="seccion">
       <div class="habilidades">
-        <h2><span>Habilidades</span></h2>
+        <h2 data-section="habilidades" data-value="titulo"><span>Habilidades</span></h2>
       </div>
       <div class="hability">
         <p class="habilidad" data-section="habilidades" data-value="habilidad">Estas son algunas de las tecnologías y lenguajes que domino y que uso para crear sitios y
@@ -183,9 +183,10 @@
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="100"
             height="100" />
         </div>
-        <div>Visual Studio Code <br>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="100"
-            width="100" />
+        <div>npm <br>
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="100"
+          height="100" />
+
         </div>
       </div>
       </div>
@@ -193,31 +194,31 @@
 
     <section id="contacto" class="seccion">
       <div class="contacto">
-        <h2><span>Contacto</span></h2>
+        <h2 data-section="form" data-value="formu"><span>Contacto</span></h2>
       </div>
       <div class="form" id="form">
         <p>
         <form action="https://formsubmit.co/914847cf8e9586c58d219e15bbe7a598" method="POST" target="_blank"
           id="formulario">
-          <div class="formulario__grupo" id="grupo__nombre"> <label for="name">Nombre Completo:</label><br>
-            <div class="formulario__grupo-input"><input size="40" type="text" name="nombre" id="nombre"
-                placeholder="Ingrese su nombre completo" required><br></div>
+          <div class="formulario__grupo" id="grupo__nombre"> <label for="name" data-section="form" data-value="nombre">Nombre Completo:</label><br>
+            <div class="formulario__grupo-input" data-section="form" data-value="name"><input size="40" type="text" name="nombre" id="nombre"
+                placeholder="Ingrese su nombre completo" required ><br></div>
           </div>
-          <div class="formulario__grupo" id="grupo__correo"><label for="email">Correo electrónico:</label><br>
+          <div class="formulario__grupo" id="grupo__correo" data-section="form" data-value="email"><label for="email" data-section="form" data-value="correo">Correo electrónico:</label><br>
             <div class="formulario__grupo-input"> <input size=40 type="email" name="correo" id="correo"
                 placeholder="Ingrese su correo electrónico" required><br>
             </div>
           </div>
-          <div class="formulario__grupo" id="grupo__telefono"><label for="telefono">Teléfono: </label><br>
-            <div class="formulario__grupo-input"><input type="number" size="40" name="telefono" id="telefono"
+          <div class="formulario__grupo" id="grupo__telefono"><label for="telefono" data-section="form" data-value="telefono">Teléfono: </label><br>
+            <div class="formulario__grupo-input" data-section="form" data-value="phone"><input type="number" size="40" name="telefono" id="telefono"
                 placeholder="Ingrese su teléfono" required><br>
             </div>
           </div>
-          <div id="grupo__mensaje"><label for="mensaje">Mensaje:</label><br>
-            <textarea name="mensaje" id="mensaje" cols="40" rows="8" placeholder="Escriba su mensaje"
-              required></textarea><br>
+          <div id="grupo__mensaje"><label for="mensaje" data-section="form" data-value="mensaje">Mensaje:</label><br>
+            <div data-section="form" data-value="message"><textarea name="mensaje" id="mensaje" cols="40" rows="8" placeholder="Escriba su mensaje"
+              required></textarea></div><br>
           </div>
-          <div class=" formulario__grupo formulario__grupo-btn-enviar"><button type="submit" id="submit">Enviar</button>
+          <div class=" formulario__grupo formulario__grupo-btn-enviar"><button type="submit" id="submit" data-section="form" data-value="enviar">Enviar</button>
           </div>
         </form>
         </p>
@@ -228,7 +229,7 @@
   <script src="scripts/formulario.js"></script>
   <script src="https://kit.fontawesome.com/8266bb4b8c.js" crossorigin="anonymous"></script>
   <footer>
-    <p>&copy; Creado por Federico Manuel Quinteros 2024 | <a
+    <p>&copy; Federico Manuel Quinteros 2024 | <a
         href="https://www.linkedin.com/in/federico-manuel-quinteros-0aa90a20b/"><i class="fa-brands fa-linkedin fa-lg"
           style="color: #B7C4CF;"></i></a> <a href="https://github.com/fedemquinteros"><i
           class="fa-brands fa-github fa-lg" style="color: #B7C4CF;"></i></a></p>

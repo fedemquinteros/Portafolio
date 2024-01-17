@@ -1,15 +1,41 @@
 {
+    "nav": {
+        "sobre": "About me",
+        "proyec": "Projects",
+        "habil": "Skills",
+        "contact": "Contact"
+    },
     "profile": {
         "rol": "Full-stack developer",
+        "tittle":"About Me",
         "description": "Hello, I am Federico, a full-stack developer with Python. I am passionate about technology and computing, and I am always looking for new challenges. I graduated in 2023 from the Full Stack Development with Python course of the Codo a Codo 4.0 program, where I will learn to create websites and applications from scratch, using the best practices and tools in the sector. I am a reliable and proactive professional, with a passion for continuous learning. I consider myself self-taught and I am always willing to explore new technologies and solutions."
     },
     "proyectos": {
+        "proyecto":"Projects",
+        "proyecto2":"These are some of my projects:",
         "sportspalooza": "It is an exciting platform that combines sports predictions (prode) with the ability to create matches for tournaments in the office.",
-        "petway": "We are an online pet products store that has been working for more than 20 years to offer the best service and care for them.",
-        "quimicaInorganica": "Descriptive chemistry of elements is often seen as a collection of unrelated facts with very few fundamental principles.",
-        "grabadora": "With this recorder you can select which part of your screen to record in the simplest and most efficient way, with just the press of a button."
+        "petway": "We are an online pet products store that has been working for more than 20 years to offer the best service and care for them.<br><br>",
+        "quimicaInorganica": "Descriptive chemistry of elements is often seen as a collection of unrelated facts with very few fundamental principles.<br><br>",
+        "grabadora": "With this recorder you can select which part of your screen to record in the simplest and most efficient way, with just the press of a button.<br>",
+        "boton1": "Go to SportsPalooza",
+        "boton2": "Go to Pet Way",
+        "boton3": "Go to Química",
+        "boton4": "Go to Grabadora"
     },
     "habilidades": {
-        "habilidad": "These are some of the technologies and languages I master and use to create quality websites and web applications"
+        "habilidad": "These are some of the technologies and languages I master and use to create quality websites and web applications",
+        "titulo": "Skills"
+    },
+    "form":{
+        "formu":"Contact",
+        "nombre":"Full Name",
+        "name":"<input size='40' type='text' name='nombre' id='nombre' placeholder='Enter your full name' required >",
+        "correo":"Email",
+        "email": "<input size=40 type='email' name='correo' id='correo' placeholder='Enter your email' required>",
+        "telefono":"Phone Number",
+        "phone": "<input type='number' size='40' name='telefono' id='telefono' placeholder='Enter your phone number' required>",
+        "mensaje":"Message",
+        "message":"<textarea name='mensaje' id='mensaje' cols='40' rows='8' placeholder='Write your message' required>",
+        "enviar":"Send"
     }
 }
