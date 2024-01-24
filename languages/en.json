@@ -17,10 +17,12 @@
         "petway": "We are an online pet products store that has been working for more than 20 years to offer the best service and care for them.<br><br>",
         "quimicaInorganica": "Descriptive chemistry of elements is often seen as a collection of unrelated facts with very few fundamental principles.<br><br>",
         "grabadora": "With this recorder you can select which part of your screen to record in the simplest and most efficient way, with just the press of a button.<br>",
+        "blackJack": "Blackjack is a card game in which the objective is to make a hand worth more points than the dealer's hand, without going over 21.",
         "boton1": "Go to SportsPalooza",
         "boton2": "Go to Pet Way",
         "boton3": "Go to Química",
-        "boton4": "Go to Grabadora"
+        "boton4": "Go to Grabadora",
+        "boton5": "Go to Blackjack"
     },
     "habilidades": {
         "habilidad": "These are some of the technologies and languages I master and use to create quality websites and web applications",
