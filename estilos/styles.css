@@ -395,13 +395,19 @@ form {
 .cartas {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 10px;
   text-align: center;
   margin: 10px;
 }
 
+.card {
+  width: 18rem;
+  margin-bottom: 20px; /* Ajusta este valor según sea necesario */
+}
+
 .cartas p {
-  color: #DBE2EF
+  color: #DBE2EF;
 }
 
 .cartas h5 {
@@ -469,4 +475,11 @@ form {
 .flags__img{
   cursor: pointer;
   display: block;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
 }
