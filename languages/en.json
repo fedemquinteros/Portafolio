@@ -30,13 +30,13 @@
     },
     "form":{
         "formu":"Contact",
-        "nombre":"Full Name",
+        "nombre":"Full Name:",
         "name":"<input size='40' type='text' name='nombre' id='nombre' placeholder='Enter your full name' required >",
-        "correo":"Email",
+        "correo":"Email:",
         "email": "<input size=40 type='email' name='correo' id='correo' placeholder='Enter your email' required>",
-        "telefono":"Phone Number",
+        "telefono":"Phone Number:",
         "phone": "<input type='number' size='40' name='telefono' id='telefono' placeholder='Enter your phone number' required>",
-        "mensaje":"Message",
+        "mensaje":"Message:",
         "message":"<textarea name='mensaje' id='mensaje' cols='40' rows='8' placeholder='Write your message' required>",
         "enviar":"Send"
     }

@@ -13,8 +13,7 @@ body {
   color: #DBE2EF;
   text-shadow: #290000 2px 2px 2px;
   overflow: auto;
-  font-size: 22px;
-
+  font-size: 22px
 }
 
 body p {
@@ -358,11 +357,18 @@ canvas {
   text-align: center;
   
 }
-
-.devicon4 .github {
-  padding-left: 50px;
-
+.devicon5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  
 }
+.devicon-flask-original{
+  font-size: 18px;
+}
+
 
 .hability {
   padding: 0;
@@ -374,17 +380,14 @@ canvas {
   .devicon,
   .devicon2,
   .devicon3,
-  .devicon4 {
+  .devicon4,
+  .devicon5 {
     flex-direction: column;
     text-align: center;
     padding-left: 0;
   }
 
-  .devicon4 .github {
-    padding-left: 0;
-
-  }
-
+  
   .hability {
     text-align: center;
     padding-left: 20px;
