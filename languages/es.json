@@ -18,11 +18,13 @@
         "quimicaInorganica": "La química descriptiva de los elementos a menudo se ve como una coleccion de hechos no relacionados con muy pocos principios fundamentales.",
         "grabadora": "Con esta grabadora podrás seleccionar qué parte de tu pantalla grabar de la forma más sencilla y eficaz, con solo pulsar un botón.",
         "blackJack": "El blackjack es un juego de cartas en el que el objetivo es reunir una mano que valga una cantidad de puntos superior al valor de la mano del crupier, sin pasarse de 21.",
+        "Traffic": "La Renault Trafic es una furgoneta versátil y robusta, ideal para transporte comercial y carga, conocida por su fiabilidad y eficiencia, con un diseño funcional.",
         "boton1": "Ir a SportsPalooza",
         "boton2": "Ir a Pet Way",
         "boton3": "Ir a Química",
         "boton4": "Ir a Grabadora",
-        "boton5": "Ir a Blackjack"
+        "boton5": "Ir a Blackjack",
+        "boton6": "Ir a Traffic"
     },
     "habilidades": {
         "habilidad": "Estas son algunas de las tecnologías y lenguajes que domino y que uso para crear sitios y aplicaciones web de calidad",
